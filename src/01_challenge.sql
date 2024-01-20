@@ -17,3 +17,5 @@ VALUES
 ('Dickinson, Mayer and Boyer', 'Tommie Street 781', 'Lake', 'Abbottshire', 'NorthDakota', '79345910', 3),
 ('Hettinger-Raynor', 'Emerson Square 494', 'Port', 'Pollichborough', 'Wyoming', '29551210', 3),
 ('Ernser Inc', 'Bart Knolls 161', 'East', 'Kodymouth', 'Nebraska', '16541278', 4);
+
+SELECT * FROM hotels;
