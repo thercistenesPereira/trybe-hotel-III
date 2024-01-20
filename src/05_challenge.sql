@@ -1,7 +1,7 @@
-SELECT
+SELECT 
   name 'Hotel',
   street 'Rua',
   district 'Bairro',
   city 'Cidade'
-FROM hotels AS HO INNER JOIN rooms as RO ON HO.id = RO.hotel_id
-WHERE avaliable = 1; 
+FROM hotels AS hot INNER JOIN rooms AS roo ON hot.id = roo.hotel_id
+WHERE available = 1;
