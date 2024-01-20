@@ -1,12 +1,13 @@
 USE trybe_hotel;
 
-CREATE TABLE rooms (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  price DECIMAL(6,2) NOT NULL,
-  available BOOLEAN DEFAULT TRUE,
-  hotel_id INT NOT NULL,
-    FOREIGN KEY (hotel_id) REFERENCES hotels (id)
+CREATE TABLE rooms(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    price FLOAT(6,2) NOT NULL,
+    available BOOLEAN DEFAULT TRUE,
+    hotel_id INTEGER NOT NULL,
+    FOREIGN KEY(hotel_id) REFERENCES hotels(id)
 );
+
 
 INSERT INTO rooms (price, available, hotel_id)
   VALUES
